@@ -1,8 +1,5 @@
-// THIS IS THE PARENT CONTAINER FOR ALL THE FILES
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
-
-// constants
 import Colors from '../constants/colors';
 
 const ParentContainer: React.FC = (props: any) => {
