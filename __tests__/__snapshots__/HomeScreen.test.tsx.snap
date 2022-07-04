@@ -1,0 +1,355 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomesSreen renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginTop": 16,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View>
+          <Text>
+            Welcome Abhinandan
+          </Text>
+          <View>
+            <Text>
+              Welcome Back
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "position": "absolute",
+              "right": 0,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 25,
+                "height": 50,
+                "marginRight": 10,
+                "width": 50,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginTop": 8,
+          }
+        }
+      >
+        <RCTScrollView
+          data={
+            Array [
+              Object {
+                "description": "Demo typescript",
+                "language": "Typescript",
+                "name": "Abhinandan Singha",
+              },
+              Object {
+                "description": "Demo JS",
+                "language": "Typescript",
+                "name": "Abhinandan Singha",
+              },
+              Object {
+                "description": "Demo Android",
+                "language": "Typescript",
+                "name": "Abhinandan Singha",
+              },
+              Object {
+                "description": "Demo Ios",
+                "language": "Typescript",
+                "name": "Abhinandan Singha",
+              },
+            ]
+          }
+          getItem={[Function]}
+          getItemCount={[Function]}
+          keyExtractor={[Function]}
+          onContentSizeChange={[Function]}
+          onLayout={[Function]}
+          onMomentumScrollBegin={[Function]}
+          onMomentumScrollEnd={[Function]}
+          onScroll={[Function]}
+          onScrollBeginDrag={[Function]}
+          onScrollEndDrag={[Function]}
+          removeClippedSubviews={false}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          stickyHeaderIndices={Array []}
+          viewabilityConfigCallbackPairs={Array []}
+        >
+          <View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                    "borderColor": "#888",
+                    "borderRadius": 8,
+                    "borderWidth": 1,
+                    "marginTop": 16,
+                    "opacity": 1,
+                    "padding": 16,
+                    "width": 730,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80",
+                      }
+                    }
+                    style={
+                      Object {
+                        "borderRadius": 25,
+                        "height": 50,
+                        "marginRight": 10,
+                        "width": 50,
+                      }
+                    }
+                  />
+                  <Text>
+                    Demo typescript
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                    "borderColor": "#888",
+                    "borderRadius": 8,
+                    "borderWidth": 1,
+                    "marginTop": 16,
+                    "opacity": 1,
+                    "padding": 16,
+                    "width": 730,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80",
+                      }
+                    }
+                    style={
+                      Object {
+                        "borderRadius": 25,
+                        "height": 50,
+                        "marginRight": 10,
+                        "width": 50,
+                      }
+                    }
+                  />
+                  <Text>
+                    Demo JS
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                    "borderColor": "#888",
+                    "borderRadius": 8,
+                    "borderWidth": 1,
+                    "marginTop": 16,
+                    "opacity": 1,
+                    "padding": 16,
+                    "width": 730,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80",
+                      }
+                    }
+                    style={
+                      Object {
+                        "borderRadius": 25,
+                        "height": 50,
+                        "marginRight": 10,
+                        "width": 50,
+                      }
+                    }
+                  />
+                  <Text>
+                    Demo Android
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              onLayout={[Function]}
+              style={null}
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                    "borderColor": "#888",
+                    "borderRadius": 8,
+                    "borderWidth": 1,
+                    "marginTop": 16,
+                    "opacity": 1,
+                    "padding": 16,
+                    "width": 730,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80",
+                      }
+                    }
+                    style={
+                      Object {
+                        "borderRadius": 25,
+                        "height": 50,
+                        "marginRight": 10,
+                        "width": 50,
+                      }
+                    }
+                  />
+                  <Text>
+                    Demo Ios
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
